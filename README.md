@@ -11,7 +11,7 @@ Upon completion of fully testing a new feature in your local dev environment mer
             1. $ git add -A
             1. $ git commit -am (Relevant detailed commit message.)
             1. $ git pull github master
-..3. $ git merge kaTesting
+    3. $ git merge kaTesting
 ..* Resolve any conflicts (see 2.2.1)
 ..4. **Test**
 You have just altered the code base since you last tested your new feature; additionally you might have broken someone else's recent addition, congratulations! Take some time to work through and test out every aspect of your new feature.
