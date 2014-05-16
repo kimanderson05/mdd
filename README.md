@@ -10,7 +10,7 @@ Upon completion of fully testing a new feature in your local dev environment mer
         * Once conflicts are resolved and saved, commit changes and pull remote master branch again.
             1. $ git add -A
             1. $ git commit -am (Relevant detailed commit message.)
-            1. $ git pull github master  .
+            1. $ git pull github master
     3. $ git merge kaTesting
         * Resolve any conflicts (see 2.2.1)
     4. **Test**
