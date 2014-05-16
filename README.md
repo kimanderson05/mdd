@@ -1,16 +1,16 @@
 #To deploy to the Staging Server Strict adherence to the following process is required.
 1. **Merge Dev Branch into Master**
 Upon completion of fully testing a new feature in your local dev environment merge the kaTesting branch back into master. To do this successfully you will need to first pull the remote master branch, ensuring your local master branch is up to date.
-..1. $ git checkout master
-..* Switches to the local master branch
-..2. $ git pull github master
-..* github is the name of the remote repo we will use to differentiate between our other remote deployment servers
-..* Resolve any conflicts
-..* Visit each conflicted file and resolve any conflicts. Save files.
-..* Once conflicts are resolved and saved, commit changes and pull remote master branch again.
-..* ..1. $ git add -A
-..* ..1. $ git commit -am (Relevant detailed commit message.)
-..* ..1. $ git pull github master
+    1. $ git checkout master
+        * Switches to the local master branch
+    2. $ git pull github master
+        * github is the name of the remote repo we will use to differentiate between our other remote deployment servers
+        * Resolve any conflicts
+        * Visit each conflicted file and resolve any conflicts. Save files.
+        * Once conflicts are resolved and saved, commit changes and pull remote master branch again.
+            1. $ git add -A
+            1. $ git commit -am (Relevant detailed commit message.)
+            1. $ git pull github master
 ..3. $ git merge kaTesting
 ..* Resolve any conflicts (see 2.2.1)
 ..4. **Test**
