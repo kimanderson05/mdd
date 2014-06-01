@@ -15,17 +15,14 @@
       </div>
     </div>
 
-    <div class="navigation">
-        <ul>
-            <li>Home</li>
-            <li>Professional Examples</li>
-            <li>Educational Examples</li>
-            <li>Resume</li>
-            <li>Contact Me</li>
-        </ul>
-    </div>
 
     <div class="row">
+        <ul>
+            <li class="navigation">Home</li>
+            <li class="navigation">Examples</li>
+            <li class="navigation">Resume</li>
+            <li class="navigation">Contact Me</li>
+        </ul>
       <div class="large-12 columns">
       	<div class="panel">
 	        <h3>Thank you for visiting my page.</h3>
