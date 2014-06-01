@@ -15,13 +15,13 @@
       </div>
     </div>
 
-    <div class="navigation">
+    <div>
         <ul>
-            <li>Home</li>
-            <li>Professional Examples</li>
-            <li>Educational Examples</li>
-            <li>Resume</li>
-            <li>Contact Me</li>
+            <li class="navigation">Home</li>
+            <li class="navigation">Professional Examples</li>
+            <li class="navigation">Educational Examples</li>
+            <li class="navigation">Resume</li>
+            <li class="navigation">Contact Me</li>
         </ul>
     </div>
 
