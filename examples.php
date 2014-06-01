@@ -17,16 +17,18 @@
 
 
 <div class="row">
+    <nav>
     <ul>
         <a href="index.php"><li class="navigation">Home</li></a>
         <li class="navigation">Examples</li>
             <ul>
-                <a href="examples-ed.php"><li class="navigation">Educational</li></a>
-                <a href="examples-pro.php"><li class="navigation">Professional</li></a>
+                <a href="examples-ed.php"><li>Educational</li></a>
+                <a href="examples-pro.php"><li>Professional</li></a>
             </ul>
         <a href="resume.php"><li class="navigation">Resume</li></a>
         <a href="contact.php"><li class="navigation">Contact Me</li></a>
     </ul>
+    </nav>
     <div class="large-12 columns">
         <div class="panel">
             <h3>Examples from professional and educational work.</h3>
