@@ -14,13 +14,24 @@
         <h1>Kimberly Anderson - Portfolio</h1>
       </div>
     </div>
-    
+
+    <div class="navigation">
+        <ul>
+            <li>Home</li>
+            <li>Professional Examples</li>
+            <li>Educational Examples</li>
+            <li>Resume</li>
+            <li>Contact Me</li>
+        </ul>
+    </div>
+
     <div class="row">
       <div class="large-12 columns">
       	<div class="panel">
 	        <h3>Examples from professional and educational work.</h3>
-	        <p>Images of completed projects.</p>
-	        <div class="row">
+	        <p>Thank you for visiting my page.</p>
+            <p>Feel free to browse the links to view my resume and work examples.  There is also a "contact me" link which will allow you to send me a text if you have any additional questions.</p>
+	        <!--<div class="row">
                 <div class="large-12 columns">
                     <div class="large-4 medium-4 columns">
                         <p><a href="img/AAAE-Icon.jpg"><img src="img/AAAE-Icon-sm.jpg"/></a><br />Icon designed by me.  Background designed by a co-worker.</p>
@@ -65,7 +76,7 @@
 			</div>
       	</div>
       </div>
-    </div>
+    </div>-->
 
     <!--<div class="row">
       <div class="large-8 medium-8 columns">
