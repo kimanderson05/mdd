@@ -23,6 +23,9 @@
         <a href="resume.php"><li class="navigation">Resume</li></a>
         <a href="contact.php"><li class="navigation">Contact Me</li></a>
     </ul>
+</div>
+
+<div class="row">
     <div class="large-12 columns">
         <div class="panel">
             <h3>Examples from professional and educational work.</h3>
