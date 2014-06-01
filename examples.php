@@ -75,10 +75,11 @@
             </div>
           </div>
       </div>
-    </div>
+
 
 <div class="rows">
     <footer>2014 - Kimberly Anderson</footer>
+</div>
 </div>
 
             <script src="js/vendor/jquery.js"></script>
