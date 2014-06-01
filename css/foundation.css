@@ -104,11 +104,6 @@ body {
      top:1px;
  }
 
-
-nav li ul {
-     display: none;
- }
-
 a:hover {
   cursor: pointer; }
 
