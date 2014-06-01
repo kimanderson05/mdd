@@ -26,12 +26,12 @@
     <div class="large-12 columns">
         <div class="panel">
             <h3>If you have any questions about my work, please use the form below to contact me.</h3>
-            <form action="" method="POST" enctype="multipart/form-data">
-                <input type="hidden" name="action" value="submit"/> Your name:<br />
-                <input name="name" type="text" value="" size="30"/> <br /> Your email:<br />
-                <input name="email" type="text" value="" size="30"/> <br /> Your message:<br />
+            <form action="" method="POST">
+                <input name="name" type="text" value="" size="30"/> <br /> Your Name:<br />
+                <input name="number" type="text" value="" size="30"/> <br /> Your Phone Number:<br />
+                <input name="message" type="text" value="" size="30"/> <br /> Your message:<br />
                 <textarea name="message" rows="7" cols="30"> </textarea> <br />
-                <input type="submit" value="Send email"/>
+                <input type="submit" value="Send text"/>
             </form>
 
             <!--<div class="row">
