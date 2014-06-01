@@ -25,7 +25,6 @@ meta.foundation-data-attribute-namespace {
   font-family: false; }
 
 html, body {
-    background-color: #a0d3e8;
   height: 100%; }
 
 *,
@@ -40,7 +39,7 @@ body {
   font-size: 100%; }
 
 body {
-  background: white;
+  background: #a0d3e8;
   color: #222222;
   padding: 0;
   margin: 0;
