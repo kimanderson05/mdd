@@ -18,8 +18,7 @@
     <div>
         <ul>
             <li class="navigation">Home</li>
-            <li class="navigation">Professional Examples</li>
-            <li class="navigation">Educational Examples</li>
+            <li class="navigation">Examples</li>
             <li class="navigation">Resume</li>
             <li class="navigation">Contact Me</li>
         </ul>
