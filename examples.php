@@ -30,6 +30,7 @@
         <div class="panel">
             <h3>Examples from professional and educational work.</h3>
             <p>Professional examples are from my current employment at RS&H, Inc as well as my previous employment at Little Star Center.  Educational examples are from my coursework at Full Sail University.</p>
+            <div class="row">
                 <div class="large-12 columns">
                     <div class="large-4 medium-4 columns">
                         <p><a href="img/AAAE-Icon.jpg"><img src="img/AAAE-Icon-sm.jpg"/></a><br />Icon designed by me.  Background designed by a co-worker.</p>
@@ -74,6 +75,7 @@
             </div>
           </div>
       </div>
+    </div>
 
             <!--<div class="row">
               <div class="large-8 medium-8 columns">
