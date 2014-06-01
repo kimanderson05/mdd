@@ -25,7 +25,7 @@
         </ul>
       <div class="large-12 columns">
       	<div class="panel">
-	        <h3>Thank you for visiting my page.</h3>
+	        <h3>Thank you for visiting my page. Have a nice day!</h3>
             <p>Feel free to browse the links to view my resume and work examples.  There is also a "contact me" link which will allow you to send me a text if you have any additional questions.</p>
 
 
