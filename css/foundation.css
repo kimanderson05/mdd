@@ -198,6 +198,11 @@ select {
       .row .row.collapse:after {
         clear: both; }
 
+      .rows footer {
+          font-size: 10px;
+          color: #666666;
+      }
+
 .column,
 .columns {
   padding-left: 0.9375rem;
