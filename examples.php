@@ -71,7 +71,6 @@
             </div>
           </div>
       </div>
-    </div>
 
             <!--<div class="row">
               <div class="large-8 medium-8 columns">
