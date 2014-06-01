@@ -4,33 +4,29 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title> <?php echo gethostname(); ?> - Kimberly Anderson</title>
-    <link rel="stylesheet" href="css/foundation.css" />
-    <script src="js/vendor/modernizr.js"></script>
-  </head>
-  <body>
-    
-    <div class="row">
-      <div class="large-12 columns">
+<link rel="stylesheet" href="css/foundation.css" />
+<script src="js/vendor/modernizr.js"></script>
+</head>
+<body>
+
+<div class="row">
+    <div class="large-12 columns">
         <h1>Kimberly Anderson - Portfolio</h1>
-      </div>
     </div>
+</div>
 
-    <div class="navigation">
-        <ul>
-            <li>Home</li>
-            <li>Professional Examples</li>
-            <li>Educational Examples</li>
-            <li>Resume</li>
-            <li>Contact Me</li>
-        </ul>
-    </div>
 
-    <div class="row">
-      <div class="large-12 columns">
-      	<div class="panel">
-	        <h3>Thank you for visiting my page.</h3>
-            <p>Feel free to browse the links to view my resume and work examples.  There is also a "contact me" link which will allow you to send me a text if you have any additional questions.</p>
-	        <!--<div class="row">
+<div class="row">
+    <ul>
+        <li class="navigation">Home</li>
+        <li class="navigation">Examples</li>
+        <li class="navigation">Resume</li>
+        <li class="navigation">Contact Me</li>
+    </ul>
+    <div class="large-12 columns">
+        <div class="panel">
+            <h3>Examples from professional and educational work.</h3>
+            <p>Professional examples are from my current employment at RS&H, Inc as well as my previous employment at Little Star Center.  Educational examples are from my coursework at Full Sail University.</p>
                 <div class="large-12 columns">
                     <div class="large-4 medium-4 columns">
                         <p><a href="img/AAAE-Icon.jpg"><img src="img/AAAE-Icon-sm.jpg"/></a><br />Icon designed by me.  Background designed by a co-worker.</p>
@@ -72,56 +68,56 @@
 
                     </div>
                 </div>
-			</div>
-      	</div>
+            </div>
+          </div>
       </div>
-    </div>-->
+    </div>
 
-    <!--<div class="row">
-      <div class="large-8 medium-8 columns">
-        <h5>Here&rsquo;s your basic grid:</h5>-->
-        <!-- Grid Example -->
+            <!--<div class="row">
+              <div class="large-8 medium-8 columns">
+                <h5>Here&rsquo;s your basic grid:</h5>-->
+            <!-- Grid Example -->
 
-        <!--<div class="row">
-          <div class="large-12 columns">
-            <div class="callout panel">
-              <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
+            <!--<div class="row">
+              <div class="large-12 columns">
+                <div class="callout panel">
+                  <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
+            <div class="row">
+              <div class="large-6 medium-6 columns">
+                <div class="callout panel">
+                  <p>Six columns</p>
+                </div>
+              </div>
+              <div class="large-6 medium-6 columns">
+                <div class="callout panel">
+                  <p>Six columns</p>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
+            <div class="row">
+              <div class="large-4 medium-4 small-4 columns">
+                <div class="callout panel">
+                  <p>Four columns</p>
+                </div>
+              </div>
+              <div class="large-4 medium-4 small-4 columns">
+                <div class="callout panel">
+                  <p>Four columns</p>
+                </div>
+              </div>
+              <div class="large-4 medium-4 small-4 columns">
+                <div class="callout panel">
+                  <p>Four columns</p>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-        </div>
-        
-        <hr />
-                
-        <h5>We bet you&rsquo;ll need a form somewhere:</h5>
+
+            <hr />
+
+            <h5>We bet you&rsquo;ll need a form somewhere:</h5>
         <form>
 				  <div class="row">
 				    <div class="large-12 columns">
@@ -180,28 +176,28 @@
 				    </div>
 				  </div>
 				</form>
-      </div>     
+      </div>
 
       <div class="large-4 medium-4 columns">
 			  <h5>Try one of these buttons:</h5>
 			  <p><a href="#" class="small button">Simple Button</a><br/>
         <a href="#" class="small radius button">Radius Button</a><br/>
-        <a href="#" class="small round button">Round Button</a><br/>            
+        <a href="#" class="small round button">Round Button</a><br/>
         <a href="#" class="medium success button">Success Btn</a><br/>
         <a href="#" class="medium alert button">Alert Btn</a><br/>
-        <a href="#" class="medium secondary button">Secondary Btn</a></p>           
+        <a href="#" class="medium secondary button">Secondary Btn</a></p>
 				<div class="panel">
         	<h5>So many components, girl!</h5>
         	<p>A whole kitchen sink of goodies comes with Foundation. Checkout the docs to see them all, along with details on making them your own.</p>
-        	<a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>          
+        	<a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>
         </div>
       </div>
     </div>-->
-    
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
-  </body>
+
+            <script src="js/vendor/jquery.js"></script>
+            <script src="js/foundation.min.js"></script>
+            <script>
+                $(document).foundation();
+            </script>
+</body>
 </html>
