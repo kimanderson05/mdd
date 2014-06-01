@@ -25,7 +25,7 @@ meta.foundation-data-attribute-namespace {
   font-family: false; }
 
 html, body {
-    background-image: url("../img/background.jpg");
+    background-image: url("img/background.jpg");
     background-repeat: repeat;
   height: 100%; }
 
