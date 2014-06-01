@@ -39,6 +39,8 @@ body {
   font-size: 100%; }
 
 body {
+    background-image: url("img/background.jpg");
+    background-repeat: repeat;
   background: #a0d3e8;
   color: #222222;
   padding: 0;
