@@ -19,7 +19,11 @@
 <div class="row">
     <ul>
         <a href="index.php"><li class="navigation">Home</li></a>
-        <a href="examples.php"><li class="navigation">Examples</li></a>
+        <li class="navigation">Examples</li>
+            <ul>
+                <a href="examples-ed.php"><li class="navigation">Educational</li></a>
+                <a href="examples-pro.php"><li class="navigation">Professional</li></a>
+            </ul>
         <a href="resume.php"><li class="navigation">Resume</li></a>
         <a href="contact.php"><li class="navigation">Contact Me</li></a>
     </ul>
