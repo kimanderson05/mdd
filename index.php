@@ -18,10 +18,10 @@
 
     <div class="row">
         <ul>
-            <li class="navigation">Home</li>
-            <li class="navigation">Examples</li>
-            <li class="navigation">Resume</li>
-            <li class="navigation">Contact Me</li>
+            <a href="index.php"><li class="navigation">Home</li></a>
+            <a href="examples.php"><li class="navigation">Examples</li></a>
+            <a href="resume.php"><li class="navigation">Resume</li></a>
+            <a href="contact.php"><li class="navigation">Contact Me</li></a>
         </ul>
       <div class="large-12 columns">
       	<div class="panel">
