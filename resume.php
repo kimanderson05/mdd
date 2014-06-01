@@ -149,9 +149,9 @@
         </div>
       </div>
     </div>-->
-
+<div class="rows">
             <footer>2014 - Kimberly Anderson</footer>
-
+</div>
             <script src="js/vendor/jquery.js"></script>
             <script src="js/foundation.min.js"></script>
             <script>
