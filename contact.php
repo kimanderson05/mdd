@@ -30,7 +30,7 @@
                 Name: <input type="text" name="name" id="name" value="" size="30" /><br/>
                 Phone Number: <input type="text" name="number" id="number" value="" size="30" /><br/>
                 Message: <textarea name="comments" id="comments" cols="30" rows="3"></textarea>
-                <input type="submit" value="Text Me!" />
+                <input type="submit" name="submit" value="Text Me!" />
             </form>
 
             <!--<div class="row">
@@ -153,6 +153,30 @@
         </div>
       </div>
     </div>-->
+
+            <?php
+                require 'twilio-php/Services/Twilio.php';
+            $AccountSid = "ACc62a50eca2de15802b4f171df372aeac";
+            $AuthToken = "48a0275ce122d9d00b0639e830b3db7b";
+
+            $client = new Services_Twilio($AccountSid, $AuthToken);
+
+
+            if(!empty($_GET['submit'])){
+                $comment = $_GET['name'] . ' has sent you a fabulous message: '
+                    . $_GET['comment'] . ' Use: '
+                    . $_GET['number'] . ' to answer him/her.';
+
+                $message = $client->account->messages->sendMessage(
+                    "+19045169859", // From this number
+                    "+19042000401", // To this number
+                    $comment
+                );
+                // Display a confirmation message on the screen
+                echo "<h5 class='large-12 columns'>Message Sent</h5>";
+            }
+
+            ?>
 
             <div class="rows">
                 <footer>2014 - Kimberly Anderson</footer>
