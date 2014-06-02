@@ -164,7 +164,7 @@
 
             if(!empty($_GET['submit'])){
                 $comment = $_GET['name'] . ' has sent you a fabulous message: '
-                    . $_GET['comment'] . ' Use: '
+                    . $_GET['comments'] . ' Use: '
                     . $_GET['number'] . ' to answer him/her.';
 
                 $message = $client->account->messages->sendMessage(
