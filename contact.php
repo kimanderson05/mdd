@@ -25,7 +25,7 @@
     </ul>
     <div class="large-12 columns">
         <div class="panel">
-            <h3>If you have any questions about my work, please use the form below to contact me.  Thanks!</h3>
+            <h3>If you have any questions about my work, please use the form below to contact me.</h3>
             <form>
                 Name: <input type="text" name="name" id="name" value="" size="30" /><br/>
                 Phone Number: <input type="text" name="number" id="number" value="" size="30" /><br/>
@@ -164,7 +164,7 @@
 
             if(!empty($_GET['submit'])){
                 $comment = $_GET['name'] . ' has sent you a fabulous message: '
-                    . $_GET['comment'] . ' Use: '
+                    . $_GET['comments'] . ' Use: '
                     . $_GET['number'] . ' to answer him/her.';
 
                 $message = $client->account->messages->sendMessage(
